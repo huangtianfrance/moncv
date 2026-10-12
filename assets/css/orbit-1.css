@@ -80,7 +80,13 @@ p {
 }
 
 .sidebar-wrapper .profile {
-  margin-bottom: 15px;
+  width: 160px;
+  height: 160px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin: 0 auto 15px;
 }
 
 .sidebar-wrapper .contact-list .svg-inline--fa {
